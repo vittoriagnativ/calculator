@@ -14,3 +14,10 @@ function evaluate() {
     const displ = document.querySelector('.calc .displ');
     displ.value = eval(displ.value);
 }
+document.querySelector('reset')
+  .addEventListener('reset');
+  function reset() {
+      const displ = document.querySelector('reset');
+      displ.value = reset(displ.value);
+  }
+  
